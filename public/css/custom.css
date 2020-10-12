@@ -1,0 +1,50 @@
+.customsidebar {
+    width: 12rem !important;
+}
+
+.dt-buttons {
+    text-align: center;
+}
+
+.dt-buttons button {
+    color: #fff;
+    background-color: #858796;
+    border-color: #858796;
+    border-radius: 0.35rem;
+    border: 1px solid transparent;
+}
+
+@media screen and (max-width: 900px) {
+    .banner {
+        font-size: 18px;
+    }
+
+    .current-tenants {
+        margin-top: 10px;
+    }
+
+    .status-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+	}
+    
+    .dt-buttons{
+        margin-bottom: 2rem;
+    }
+
+	.dataTables_length {
+		text-align-last: center;
+		padding: 1rem;
+	}
+
+	.dataTables_filter {
+		text-align-last: left;
+    }
+
+    .detail-cards .card {
+        margin-bottom: 1rem;
+    }
+
+
+}
